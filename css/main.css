@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --font-primaria:  "Roboto", sans-serif;
+    --cor-primaria: white;
+    --cor-de-destaque: #303135;
+    --color-padrao-texto: #001725;
+}   
+.principal {
+  display: flex;
+  justify-content: start;
+  font-size: 24px;
+  font-family: var(--font-primaria);
+  margin-top: 10px;
+}
+.menu_navegacao {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.menu_lista {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.menu_lista_item a {
+  text-align: center;
+  margin-left: 10px;
+  font-weight: 500;
+  font-family: var(--font-primaria);
+  color: black;
+  text-decoration: none;
+  padding: 10px 30px 30px 0px;
+}
+.donate {
+  text-align: center;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  margin-left: 250px;
+  border: solid black 2px;
+  padding: 7px;
+  box-shadow: 5px 10px rgb(7, 7, 7);
+}
+.donate2 {
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(253, 253, 253);
+  color: white;
+  border-radius: 15px;
+  margin-left: 50px;
+  border: solid black 2px;
+  padding: 7px;
+  box-shadow: 5px 10px rgb(7, 7, 7);
+}
+  .img {
+    width: 120px;
+    
+  }
+.icone {
+  width: 10px;
+}
+.titulo {
+    width: 1112px;
+    align-items: center;
+    margin: 100px 150px 50px 350px;
+  
+}
+.titulo_principal {
+  font-family: var(--font-primaria);
+  font-weight: 700;
+  font-size: 100px;
+}
+.titulo_principal_paragrafo {
+  margin-top: 20px;
+  font-family: var(--font-primaria);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+}
+.imagem {
+  width: 592px;
+  height: 680px;
+}
+.container_imagem_texto {
+  display: grid;
+}
+.imagem_container {
+  width: 50%;
+}
+.texto_container {
+  text-decoration: none;
+  font-weight: 700px;
+}
